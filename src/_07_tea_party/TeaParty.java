@@ -6,6 +6,9 @@ public class TeaParty {
 	private boolean isKnighted;
 	
 	public String welcome(String name, boolean isWoman, boolean isKnighted) {
-		
+		this.name = name;
+		this.isWoman = isWoman;
+		this.isKnighted = isKnighted;
+		return "Hello " + name;
 	}
 }
